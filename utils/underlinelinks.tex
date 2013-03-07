@@ -1,0 +1,11 @@
+\RequirePackage{hyperref}
+\RequirePackage{soul}
+\RequirePackage[x11names]{xcolor}
+
+\colorlet{cunderline}{SkyBlue4}
+
+\newcommand{\uhref}[2]{%
+  \setulcolor{cunderline}%
+  \href{#1}{\ul{#2}}%
+  \setulcolor{black}%
+}
